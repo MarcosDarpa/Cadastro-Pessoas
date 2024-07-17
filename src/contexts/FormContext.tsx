@@ -47,3 +47,12 @@ const FormProvider = ({ childrean }) => {
         </FormContext.Provider>
     )
 }
+
+// Context Hook
+const useForm = () => {
+    const context =useContext(FormContext);
+    if(context === undefined) {
+        throw new Error('useForm precisa ser usada dentro do FormProvider')
+    }
+    return context;
+}
