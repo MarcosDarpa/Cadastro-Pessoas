@@ -1,11 +1,12 @@
 import { ReactNode } from 'react';
-import *as C from './styles';
+import * as C from './styles';
+import {Header} from '../Header';
 
 type Props = {
     children: ReactNode;
 }
 
-export const theme = ({ children }: Props) => {
+export const Theme = ({ children }: Props) => {
     return (
         <C.Container>
             <C.Area>
@@ -13,11 +14,11 @@ export const theme = ({ children }: Props) => {
 
                 <C.Steps>
                     <C.Sidebar>
-
+                        ...
                     </C.Sidebar>
-                    <C.page>
+                    <C.Page>
                         {children}
-                    </C.page>
+                    </C.Page>
 
                 </C.Steps>
             </C.Area>
