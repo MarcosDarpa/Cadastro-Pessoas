@@ -10,14 +10,13 @@ export const Area = styled.div`
     margin: auto;
     max-width: 980px;
     min-height: 100vh;
-    display-flex;
+    display: flex;
     flex-direction: column;
 `;
 
 export const Steps = styled.div`
     flex: 1;
-    display-flex;
-
+    display: flex;
 `;
 
 export const Sidebar = styled.div`

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     padding: 25px 0;
-    boder-bottom: 1px solid #16195c;
+    border-bottom: 1px solid #16195c;
 
     h1 {
         margin: 0;
@@ -14,3 +14,4 @@ export const Container = styled.div`
         color: #b8b8d4;
     }
 `;
+
